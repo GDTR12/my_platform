@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblist_x.a  CMakeFiles/list_x.dir/src/dataManager.c.o CMakeFiles/list_x.dir/src/list_x.c.o CMakeFiles/list_x.dir/src/xlist.c.o
+/usr/bin/ranlib liblist_x.a

@@ -1,0 +1,3 @@
+/home/gdtr/AI/my_platform/components/xui/build/CMakeFiles/rebuild_cache.dir
+/home/gdtr/AI/my_platform/components/xui/build/CMakeFiles/edit_cache.dir
+/home/gdtr/AI/my_platform/components/xui/build/CMakeFiles/xui.dir

@@ -1,0 +1,27 @@
+{
+    "files.associations": {
+        "array": "cpp",
+        "chrono": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "ratio": "cpp",
+        "tuple": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp",
+        "xlist.h": "c",
+        "stdint.h": "c",
+        "list": "c",
+        "*.tcc": "c",
+        "initializer_list": "c",
+        "limits": "c",
+        "string": "c",
+        "string_view": "c",
+        "typeinfo": "c",
+        "datamanager.h": "c",
+        "stdlib.h": "c",
+        "bitset": "c",
+        "optional": "c",
+        "system_error": "c"
+    }
+}

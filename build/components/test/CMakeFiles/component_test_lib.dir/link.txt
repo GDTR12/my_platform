@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcomponent_test_lib.a  CMakeFiles/component_test_lib.dir/src/test.c.o
+/usr/bin/ranlib libcomponent_test_lib.a

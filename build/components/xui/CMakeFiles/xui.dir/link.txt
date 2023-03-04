@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../components/xui/build/lib/libxui.a  CMakeFiles/xui.dir/src/tlsf.c.o CMakeFiles/xui.dir/src/xui.c.o CMakeFiles/xui.dir/src/xui_tick.c.o
+/usr/bin/ranlib ../../../components/xui/build/lib/libxui.a

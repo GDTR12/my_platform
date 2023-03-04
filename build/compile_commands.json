@@ -1,0 +1,52 @@
+[
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/test",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/components/test/./includes  -Wno-format -g   -o CMakeFiles/component_test_lib.dir/src/test.c.o   -c /home/gdtr/AI/my_platform/components/test/src/test.c",
+  "file": "/home/gdtr/AI/my_platform/components/test/src/test.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/list_template_c",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/components/list_template_c/./includes  -Wno-format -g   -o CMakeFiles/list_x.dir/src/dataManager.c.o   -c /home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.c",
+  "file": "/home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/list_template_c",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/components/list_template_c/./includes  -Wno-format -g   -o CMakeFiles/list_x.dir/src/list_x.c.o   -c /home/gdtr/AI/my_platform/components/list_template_c/src/list_x.c",
+  "file": "/home/gdtr/AI/my_platform/components/list_template_c/src/list_x.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/list_template_c",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/components/list_template_c/./includes  -Wno-format -g   -o CMakeFiles/list_x.dir/src/xlist.c.o   -c /home/gdtr/AI/my_platform/components/list_template_c/src/xlist.c",
+  "file": "/home/gdtr/AI/my_platform/components/list_template_c/src/xlist.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/xui",
+  "command": "/usr/bin/arm-none-eabi-gcc  -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -std=c++11 -o CMakeFiles/xui.dir/src/tlsf.c.o   -c /home/gdtr/AI/my_platform/components/xui/src/tlsf.c",
+  "file": "/home/gdtr/AI/my_platform/components/xui/src/tlsf.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/xui",
+  "command": "/usr/bin/arm-none-eabi-gcc  -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -std=c++11 -o CMakeFiles/xui.dir/src/xui.c.o   -c /home/gdtr/AI/my_platform/components/xui/src/xui.c",
+  "file": "/home/gdtr/AI/my_platform/components/xui/src/xui.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/xui",
+  "command": "/usr/bin/arm-none-eabi-gcc  -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -std=c++11 -o CMakeFiles/xui.dir/src/xui_tick.c.o   -c /home/gdtr/AI/my_platform/components/xui/src/xui_tick.c",
+  "file": "/home/gdtr/AI/my_platform/components/xui/src/xui_tick.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/components/cJSON",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/components/cJSON/.  -Wno-format -g   -o CMakeFiles/cJSON.dir/cJSON.c.o   -c /home/gdtr/AI/my_platform/components/cJSON/cJSON.c",
+  "file": "/home/gdtr/AI/my_platform/components/cJSON/cJSON.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/app/test",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -o CMakeFiles/test.dir/src/main.c.o   -c /home/gdtr/AI/my_platform/app/test/src/main.c",
+  "file": "/home/gdtr/AI/my_platform/app/test/src/main.c"
+},
+{
+  "directory": "/home/gdtr/AI/my_platform/build/app/test",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -o CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.o   -c /home/gdtr/AI/my_platform/components/my_printf/my_printf.c",
+  "file": "/home/gdtr/AI/my_platform/components/my_printf/my_printf.c"
+}
+]

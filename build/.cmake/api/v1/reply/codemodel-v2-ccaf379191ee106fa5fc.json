@@ -1,0 +1,196 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "third_party",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "third_party"
+				},
+				{
+					"build" : "components/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/test",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "components/list_template_c",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/list_template_c",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "components/xui",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "components/xui",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "components/cJSON",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "components/cJSON",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "app/test",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16.3"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "app/test",
+					"targetIndexes" : 
+					[
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6
+					],
+					"name" : "my_platform",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "xui",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 5,
+					"id" : "cJSON::@0b22de02ffd9b9ca640c",
+					"jsonFile" : "target-cJSON-Debug-303f340a9c76ace6d7b3.json",
+					"name" : "cJSON",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "component_test_lib::@ce0ba1ce342bc938eff1",
+					"jsonFile" : "target-component_test_lib-Debug-3b746d04346f2a905ce5.json",
+					"name" : "component_test_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "list_x::@4e45757516477208b87a",
+					"jsonFile" : "target-list_x-Debug-226b7f4df42de90eaf2d.json",
+					"name" : "list_x",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "test::@bc9c8dbd03e4c0e973b3",
+					"jsonFile" : "target-test-Debug-f0ce13f60e396557451b.json",
+					"name" : "test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "xui::@5f42be4de7f62e477927",
+					"jsonFile" : "target-xui-Debug-c19d30fd8aca1ef3f795.json",
+					"name" : "xui",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/gdtr/AI/my_platform/build",
+		"source" : "/home/gdtr/AI/my_platform"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
