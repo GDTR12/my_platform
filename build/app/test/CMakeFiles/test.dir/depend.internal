@@ -4,10 +4,10 @@
 app/test/CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.o
  /home/gdtr/AI/my_platform/components/my_printf/my_printf.c
  /home/gdtr/AI/my_platform/components/my_printf/my_printf.h
-app/test/CMakeFiles/test.dir/src/main.c.o
+app/test/CMakeFiles/test.dir/src/main.cpp.o
  ../components/cJSON/cJSON.h
  ../components/list_template_c/includes/list_x.h
  ../components/list_template_c/includes/xlist.h
  ../components/ring_x_queue/ring_x_queue.h
  ../components/test/includes/test.h
- /home/gdtr/AI/my_platform/app/test/src/main.c
+ /home/gdtr/AI/my_platform/app/test/src/main.cpp

@@ -30,3 +30,7 @@ dataManager.h
 string.h
 /home/gdtr/AI/my_platform/components/list_template_c/src/string.h
 
+/home/gdtr/AI/my_platform/components/list_template_c/src/xlist.c
+xlist.h
+/home/gdtr/AI/my_platform/components/list_template_c/src/xlist.h
+

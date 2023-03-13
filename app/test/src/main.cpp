@@ -602,11 +602,9 @@ data1
 
 // }
 
+#include <iostream>
 
 int main()
 {
-    char data[3];
-    chinese_font_map("天气",data);
-    printf("%d\n",data[0]);
-    printf("%d\n",data[1]);
+    std::cout<<"aa"<<std::endl;
 }

@@ -17,7 +17,7 @@
 		],
 		"files" : 
 		[
-			"app/test/CMakeLists.txt"
+			"app/cpp_relearn/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -65,11 +65,72 @@
 				"file" : 0,
 				"line" : 18,
 				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 19,
+				"parent" : 0
 			}
 		]
 	},
 	"compileGroups" : 
 	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g  "
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/includes"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/gdtr/AI/my_platform/components/test/./includes"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/gdtr/AI/my_platform/components/list_template_c/./includes"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/gdtr/AI/my_platform/components/cJSON/."
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/gdtr/AI/my_platform/components/xui/./includes"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/home/gdtr/AI/my_platform/components/xui/./src"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
 		{
 			"compileCommandFragments" : 
 			[
@@ -81,15 +142,19 @@
 			[
 				{
 					"backtrace" : 5,
-					"path" : "/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue"
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/gdtr/AI/my_platform/app/test/../../components/my_printf"
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/gdtr/AI/my_platform/app/test/../../components/xui/includes"
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/home/gdtr/AI/my_platform/app/cpp_relearn/includes"
 				},
 				{
 					"backtrace" : 3,
@@ -115,7 +180,6 @@
 			"language" : "C",
 			"sourceIndexes" : 
 			[
-				0,
 				1
 			]
 		}
@@ -139,13 +203,13 @@
 			"id" : "cJSON::@0b22de02ffd9b9ca640c"
 		}
 	],
-	"id" : "test::@bc9c8dbd03e4c0e973b3",
+	"id" : "test::@15cc42eaa9b478744b05",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-Wno-format -g",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -154,11 +218,11 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-L/home/gdtr/AI/my_platform/app/test/../../components/xui/build/lib",
+				"fragment" : "-L/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/build/lib",
 				"role" : "libraryPath"
 			},
 			{
-				"fragment" : "-Wl,-rpath,/home/gdtr/AI/my_platform/app/test/../../components/xui/build/lib",
+				"fragment" : "-Wl,-rpath,/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/build/lib",
 				"role" : "libraries"
 			},
 			{
@@ -182,14 +246,14 @@
 				"role" : "libraries"
 			}
 		],
-		"language" : "C"
+		"language" : "CXX"
 	},
 	"name" : "test",
 	"nameOnDisk" : "test",
 	"paths" : 
 	{
-		"build" : "app/test",
-		"source" : "app/test"
+		"build" : "app/cpp_relearn",
+		"source" : "app/cpp_relearn"
 	},
 	"sourceGroups" : 
 	[
@@ -207,12 +271,12 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "app/test/src/main.c",
+			"path" : "app/cpp_relearn/src/main.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
-			"compileGroupIndex" : 0,
+			"compileGroupIndex" : 1,
 			"path" : "components/my_printf/my_printf.c",
 			"sourceGroupIndex" : 0
 		}

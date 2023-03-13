@@ -34,8 +34,8 @@ typedef struct xlist_node {
 }xlist_node_t;
 
 #define list_entry(ptr, type, member) container_of(ptr, type, member)
-void list_add_end(xlist_node_t *new, xlist_node_t *head);
-void list_add_first(xlist_node_t *new,xlist_node_t *head);
+void list_add_end(xlist_node_t *new_l, xlist_node_t *head);
+void list_add_first(xlist_node_t *new_l,xlist_node_t *head);
 void list_remove_first(xlist_node_t *head);
 void list_remove_end(xlist_node_t *head);
 xlist_node_t* list_get_item(const xlist_node_t *head, uint16_t idx);

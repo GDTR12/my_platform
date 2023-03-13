@@ -40,25 +40,25 @@ inline int list_get_idx(const xlist_node_t *item,const xlist_node_t *head)
     return idx;
 }
 
-static inline void __list_add(xlist_node_t *new,
+static inline void __list_add(xlist_node_t *new_l,
 			      xlist_node_t *prev,   //head
 			      xlist_node_t *next)   //head
 {
-	next->prev = new;
-	new->next = next;
-	new->prev = prev;
-    prev->next = new;
+	next->prev = new_l;
+	new_l->next = next;
+	new_l->prev = prev;
+    prev->next = new_l;
 }
 
-inline void list_add_first(xlist_node_t *new,xlist_node_t *head)
+inline void list_add_first(xlist_node_t *new_l,xlist_node_t *head)
 {
-    __list_add(new,head,head->next);
+    __list_add(new_l,head,head->next);
     return;
 }
 
-inline void list_add_end(xlist_node_t *new, xlist_node_t *head)
+inline void list_add_end(xlist_node_t *new_l, xlist_node_t *head)
 {
-    __list_add(new,head->prev,head);
+    __list_add(new_l,head->prev,head);
     return;
 }
 

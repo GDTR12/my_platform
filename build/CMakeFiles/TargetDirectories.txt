@@ -14,6 +14,6 @@
 /home/gdtr/AI/my_platform/build/components/cJSON/CMakeFiles/rebuild_cache.dir
 /home/gdtr/AI/my_platform/build/components/cJSON/CMakeFiles/edit_cache.dir
 /home/gdtr/AI/my_platform/build/components/cJSON/CMakeFiles/cJSON.dir
-/home/gdtr/AI/my_platform/build/app/test/CMakeFiles/rebuild_cache.dir
-/home/gdtr/AI/my_platform/build/app/test/CMakeFiles/edit_cache.dir
-/home/gdtr/AI/my_platform/build/app/test/CMakeFiles/test.dir
+/home/gdtr/AI/my_platform/build/app/cpp_relearn/CMakeFiles/rebuild_cache.dir
+/home/gdtr/AI/my_platform/build/app/cpp_relearn/CMakeFiles/edit_cache.dir
+/home/gdtr/AI/my_platform/build/app/cpp_relearn/CMakeFiles/test.dir

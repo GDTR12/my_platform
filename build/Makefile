@@ -172,7 +172,7 @@ test: cmake_check_build_system
 
 # fast build rule for target.
 test/fast:
-	$(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/build
+	$(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
 # Help Target

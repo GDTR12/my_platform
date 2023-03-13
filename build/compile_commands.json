@@ -40,13 +40,13 @@
   "file": "/home/gdtr/AI/my_platform/components/cJSON/cJSON.c"
 },
 {
-  "directory": "/home/gdtr/AI/my_platform/build/app/test",
-  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -o CMakeFiles/test.dir/src/main.c.o   -c /home/gdtr/AI/my_platform/app/test/src/main.c",
-  "file": "/home/gdtr/AI/my_platform/app/test/src/main.c"
+  "directory": "/home/gdtr/AI/my_platform/build/app/cpp_relearn",
+  "command": "/usr/bin/g++   -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes -I/home/gdtr/AI/my_platform/app/cpp_relearn/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -g   -std=gnu++17 -o CMakeFiles/test.dir/src/main.cpp.o -c /home/gdtr/AI/my_platform/app/cpp_relearn/src/main.cpp",
+  "file": "/home/gdtr/AI/my_platform/app/cpp_relearn/src/main.cpp"
 },
 {
-  "directory": "/home/gdtr/AI/my_platform/build/app/test",
-  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -o CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.o   -c /home/gdtr/AI/my_platform/components/my_printf/my_printf.c",
+  "directory": "/home/gdtr/AI/my_platform/build/app/cpp_relearn",
+  "command": "/usr/bin/gcc  -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes -I/home/gdtr/AI/my_platform/app/cpp_relearn/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src  -Wno-format -g   -o CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.o   -c /home/gdtr/AI/my_platform/components/my_printf/my_printf.c",
   "file": "/home/gdtr/AI/my_platform/components/my_printf/my_printf.c"
 }
 ]

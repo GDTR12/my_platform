@@ -89,14 +89,14 @@
 					]
 				},
 				{
-					"build" : "app/test",
+					"build" : "app/cpp_relearn",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16.3"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 0,
-					"source" : "app/test",
+					"source" : "app/cpp_relearn",
 					"targetIndexes" : 
 					[
 						3
@@ -167,8 +167,8 @@
 				},
 				{
 					"directoryIndex" : 6,
-					"id" : "test::@bc9c8dbd03e4c0e973b3",
-					"jsonFile" : "target-test-Debug-f0ce13f60e396557451b.json",
+					"id" : "test::@15cc42eaa9b478744b05",
+					"jsonFile" : "target-test-Debug-b2f904d9b3024861d15b.json",
 					"name" : "test",
 					"projectIndex" : 0
 				},

@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gdtr/AI/my_platform/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/my_platform/build/CMakeFiles /home/gdtr/AI/my_platform/build/app/test/CMakeFiles/progress.marks
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/test/all
+	cd /home/gdtr/AI/my_platform/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/my_platform/build/CMakeFiles /home/gdtr/AI/my_platform/build/app/cpp_relearn/CMakeFiles/progress.marks
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/cpp_relearn/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/gdtr/AI/my_platform/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/test/clean
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/cpp_relearn/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,12 +97,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/test/preinstall
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/cpp_relearn/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/test/preinstall
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/cpp_relearn/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -111,18 +111,18 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-app/test/CMakeFiles/test.dir/rule:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/test/CMakeFiles/test.dir/rule
-.PHONY : app/test/CMakeFiles/test.dir/rule
+app/cpp_relearn/CMakeFiles/test.dir/rule:
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f CMakeFiles/Makefile2 app/cpp_relearn/CMakeFiles/test.dir/rule
+.PHONY : app/cpp_relearn/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
-test: app/test/CMakeFiles/test.dir/rule
+test: app/cpp_relearn/CMakeFiles/test.dir/rule
 
 .PHONY : test
 
 # fast build rule for target.
 test/fast:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/build
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
 __/__/components/my_printf/my_printf.o: __/__/components/my_printf/my_printf.c.o
@@ -131,7 +131,7 @@ __/__/components/my_printf/my_printf.o: __/__/components/my_printf/my_printf.c.o
 
 # target to build an object file
 __/__/components/my_printf/my_printf.c.o:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.o
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.o
 .PHONY : __/__/components/my_printf/my_printf.c.o
 
 __/__/components/my_printf/my_printf.i: __/__/components/my_printf/my_printf.c.i
@@ -140,7 +140,7 @@ __/__/components/my_printf/my_printf.i: __/__/components/my_printf/my_printf.c.i
 
 # target to preprocess a source file
 __/__/components/my_printf/my_printf.c.i:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.i
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.i
 .PHONY : __/__/components/my_printf/my_printf.c.i
 
 __/__/components/my_printf/my_printf.s: __/__/components/my_printf/my_printf.c.s
@@ -149,7 +149,7 @@ __/__/components/my_printf/my_printf.s: __/__/components/my_printf/my_printf.c.s
 
 # target to generate assembly for a file
 __/__/components/my_printf/my_printf.c.s:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.s
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/__/__/components/my_printf/my_printf.c.s
 .PHONY : __/__/components/my_printf/my_printf.c.s
 
 src/main.o: src/main.cpp.o
@@ -158,7 +158,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/src/main.cpp.o
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -167,7 +167,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/src/main.cpp.i
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -176,7 +176,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/test/CMakeFiles/test.dir/build.make app/test/CMakeFiles/test.dir/src/main.cpp.s
+	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f app/cpp_relearn/CMakeFiles/test.dir/build.make app/cpp_relearn/CMakeFiles/test.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target

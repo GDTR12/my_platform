@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../app/cpp_relearn/includes/Sales_item.h
+
+/home/gdtr/AI/my_platform/app/cpp_relearn/src/main.cpp
+iostream
+-
+Sales_item.h
+/home/gdtr/AI/my_platform/app/cpp_relearn/src/Sales_item.h
+

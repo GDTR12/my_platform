@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../app/test/CMakeLists.txt"
+  "../app/cpp_relearn/CMakeLists.txt"
   "CMakeFiles/3.16.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.16.3/CMakeSystem.cmake"
@@ -52,7 +52,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "components/list_template_c/CMakeFiles/CMakeDirectoryInformation.cmake"
   "components/xui/CMakeFiles/CMakeDirectoryInformation.cmake"
   "components/cJSON/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "app/test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "app/cpp_relearn/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -61,5 +61,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "components/list_template_c/CMakeFiles/list_x.dir/DependInfo.cmake"
   "components/xui/CMakeFiles/xui.dir/DependInfo.cmake"
   "components/cJSON/CMakeFiles/cJSON.dir/DependInfo.cmake"
-  "app/test/CMakeFiles/test.dir/DependInfo.cmake"
+  "app/cpp_relearn/CMakeFiles/test.dir/DependInfo.cmake"
   )
