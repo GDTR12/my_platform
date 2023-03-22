@@ -11,6 +11,7 @@ set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "/usr/include/eigen3"
   "../app/cpp_relearn/../../components/ring_x_queue"
   "../app/cpp_relearn/../../components/my_printf"
   "../app/cpp_relearn/../../components/xui/includes"
@@ -28,6 +29,7 @@ set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/usr/include/eigen3"
   "../app/cpp_relearn/../../components/ring_x_queue"
   "../app/cpp_relearn/../../components/my_printf"
   "../app/cpp_relearn/../../components/xui/includes"

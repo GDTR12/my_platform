@@ -147,7 +147,7 @@
 			"path" : "components/cJSON/CMakeLists.txt"
 		},
 		{
-			"path" : "app/cpp_relearn/CMakeLists.txt"
+			"path" : "app/test/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

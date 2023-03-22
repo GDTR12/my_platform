@@ -6,25 +6,3 @@
 
 #IncludeRegexTransform: 
 
-/home/gdtr/AI/my_platform/components/cJSON/cJSON.c
-string.h
--
-stdio.h
--
-math.h
--
-stdlib.h
--
-limits.h
--
-ctype.h
--
-locale.h
--
-cJSON.h
-/home/gdtr/AI/my_platform/components/cJSON/cJSON.h
-
-/home/gdtr/AI/my_platform/components/cJSON/cJSON.h
-stddef.h
--
-

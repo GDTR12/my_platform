@@ -125,33 +125,6 @@ list_x/fast:
 	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f components/list_template_c/CMakeFiles/list_x.dir/build.make components/list_template_c/CMakeFiles/list_x.dir/build
 .PHONY : list_x/fast
 
-src/dataManager.o: src/dataManager.c.o
-
-.PHONY : src/dataManager.o
-
-# target to build an object file
-src/dataManager.c.o:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f components/list_template_c/CMakeFiles/list_x.dir/build.make components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.o
-.PHONY : src/dataManager.c.o
-
-src/dataManager.i: src/dataManager.c.i
-
-.PHONY : src/dataManager.i
-
-# target to preprocess a source file
-src/dataManager.c.i:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f components/list_template_c/CMakeFiles/list_x.dir/build.make components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.i
-.PHONY : src/dataManager.c.i
-
-src/dataManager.s: src/dataManager.c.s
-
-.PHONY : src/dataManager.s
-
-# target to generate assembly for a file
-src/dataManager.c.s:
-	cd /home/gdtr/AI/my_platform/build && $(MAKE) -f components/list_template_c/CMakeFiles/list_x.dir/build.make components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.s
-.PHONY : src/dataManager.c.s
-
 src/list_x.o: src/list_x.c.o
 
 .PHONY : src/list_x.o
@@ -215,9 +188,6 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... list_x"
-	@echo "... src/dataManager.o"
-	@echo "... src/dataManager.i"
-	@echo "... src/dataManager.s"
 	@echo "... src/list_x.o"
 	@echo "... src/list_x.i"
 	@echo "... src/list_x.s"

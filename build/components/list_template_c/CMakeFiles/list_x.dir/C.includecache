@@ -6,31 +6,3 @@
 
 #IncludeRegexTransform: 
 
-../components/list_template_c/includes/dataManager.h
-xlist.h
-../components/list_template_c/includes/xlist.h
-stdlib.h
-../components/list_template_c/includes/stdlib.h
-mdefine.h
-../components/list_template_c/includes/mdefine.h
-
-../components/list_template_c/includes/mdefine.h
-
-../components/list_template_c/includes/xlist.h
-stdint.h
-../components/list_template_c/includes/stdint.h
-stdlib.h
-../components/list_template_c/includes/stdlib.h
-stdio.h
-../components/list_template_c/includes/stdio.h
-
-/home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.c
-dataManager.h
-/home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.h
-string.h
-/home/gdtr/AI/my_platform/components/list_template_c/src/string.h
-
-/home/gdtr/AI/my_platform/components/list_template_c/src/xlist.c
-xlist.h
-/home/gdtr/AI/my_platform/components/list_template_c/src/xlist.h
-

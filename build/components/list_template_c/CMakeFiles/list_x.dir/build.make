@@ -57,22 +57,9 @@ include components/list_template_c/CMakeFiles/list_x.dir/progress.make
 # Include the compile flags for this target's objects.
 include components/list_template_c/CMakeFiles/list_x.dir/flags.make
 
-components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.o: components/list_template_c/CMakeFiles/list_x.dir/flags.make
-components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.o: ../components/list_template_c/src/dataManager.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/AI/my_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.o"
-	cd /home/gdtr/AI/my_platform/build/components/list_template_c && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/list_x.dir/src/dataManager.c.o   -c /home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.c
-
-components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/list_x.dir/src/dataManager.c.i"
-	cd /home/gdtr/AI/my_platform/build/components/list_template_c && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.c > CMakeFiles/list_x.dir/src/dataManager.c.i
-
-components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/list_x.dir/src/dataManager.c.s"
-	cd /home/gdtr/AI/my_platform/build/components/list_template_c && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.c -o CMakeFiles/list_x.dir/src/dataManager.c.s
-
 components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.o: components/list_template_c/CMakeFiles/list_x.dir/flags.make
 components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.o: ../components/list_template_c/src/list_x.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/AI/my_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/AI/my_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.o"
 	cd /home/gdtr/AI/my_platform/build/components/list_template_c && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/list_x.dir/src/list_x.c.o   -c /home/gdtr/AI/my_platform/components/list_template_c/src/list_x.c
 
 components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.i: cmake_force
@@ -85,7 +72,7 @@ components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.s: cmake_force
 
 components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.o: components/list_template_c/CMakeFiles/list_x.dir/flags.make
 components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.o: ../components/list_template_c/src/xlist.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/AI/my_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/gdtr/AI/my_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.o"
 	cd /home/gdtr/AI/my_platform/build/components/list_template_c && /usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/list_x.dir/src/xlist.c.o   -c /home/gdtr/AI/my_platform/components/list_template_c/src/xlist.c
 
 components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.i: cmake_force
@@ -98,19 +85,17 @@ components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.s: cmake_force
 
 # Object files for target list_x
 list_x_OBJECTS = \
-"CMakeFiles/list_x.dir/src/dataManager.c.o" \
 "CMakeFiles/list_x.dir/src/list_x.c.o" \
 "CMakeFiles/list_x.dir/src/xlist.c.o"
 
 # External object files for target list_x
 list_x_EXTERNAL_OBJECTS =
 
-components/list_template_c/liblist_x.a: components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.o
 components/list_template_c/liblist_x.a: components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.o
 components/list_template_c/liblist_x.a: components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.o
 components/list_template_c/liblist_x.a: components/list_template_c/CMakeFiles/list_x.dir/build.make
 components/list_template_c/liblist_x.a: components/list_template_c/CMakeFiles/list_x.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdtr/AI/my_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C static library liblist_x.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/gdtr/AI/my_platform/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C static library liblist_x.a"
 	cd /home/gdtr/AI/my_platform/build/components/list_template_c && $(CMAKE_COMMAND) -P CMakeFiles/list_x.dir/cmake_clean_target.cmake
 	cd /home/gdtr/AI/my_platform/build/components/list_template_c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/list_x.dir/link.txt --verbose=$(VERBOSE)
 

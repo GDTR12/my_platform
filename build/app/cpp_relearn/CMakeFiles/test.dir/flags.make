@@ -7,11 +7,11 @@ C_FLAGS = -Wno-format -g
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes -I/home/gdtr/AI/my_platform/app/cpp_relearn/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
+C_INCLUDES = -I/usr/include/eigen3 -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes -I/home/gdtr/AI/my_platform/app/cpp_relearn/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
 
 CXX_FLAGS = -g   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes -I/home/gdtr/AI/my_platform/app/cpp_relearn/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
+CXX_INCLUDES = -I/usr/include/eigen3 -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/my_printf -I/home/gdtr/AI/my_platform/app/cpp_relearn/../../components/xui/includes -I/home/gdtr/AI/my_platform/app/cpp_relearn/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
 

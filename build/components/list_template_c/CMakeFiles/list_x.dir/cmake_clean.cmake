@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/list_x.dir/src/dataManager.c.o"
   "CMakeFiles/list_x.dir/src/list_x.c.o"
   "CMakeFiles/list_x.dir/src/xlist.c.o"
   "liblist_x.a"

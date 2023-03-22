@@ -3,15 +3,15 @@
 
 # compile C with /usr/bin/gcc
 # compile CXX with /usr/bin/g++
-C_FLAGS = -Wno-format -g  
+C_FLAGS = -Wno-format -g   -lm
 
 C_DEFINES = 
 
-C_INCLUDES = -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
+C_INCLUDES = -I/usr/include/eigen3 -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
 
-CXX_FLAGS = -g   -std=gnu++17
+CXX_FLAGS = -g   -lm -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
+CXX_INCLUDES = -I/usr/include/eigen3 -I/home/gdtr/AI/my_platform/app/test/../../components/ring_x_queue -I/home/gdtr/AI/my_platform/app/test/../../components/my_printf -I/home/gdtr/AI/my_platform/app/test/../../components/xui/includes -I/home/gdtr/AI/my_platform/components/test/./includes -I/home/gdtr/AI/my_platform/components/list_template_c/./includes -I/home/gdtr/AI/my_platform/components/cJSON/. -I/home/gdtr/AI/my_platform/components/xui/./includes -I/home/gdtr/AI/my_platform/components/xui/./src 
 

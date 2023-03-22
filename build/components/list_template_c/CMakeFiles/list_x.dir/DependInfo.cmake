@@ -4,7 +4,6 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/gdtr/AI/my_platform/components/list_template_c/src/dataManager.c" "/home/gdtr/AI/my_platform/build/components/list_template_c/CMakeFiles/list_x.dir/src/dataManager.c.o"
   "/home/gdtr/AI/my_platform/components/list_template_c/src/list_x.c" "/home/gdtr/AI/my_platform/build/components/list_template_c/CMakeFiles/list_x.dir/src/list_x.c.o"
   "/home/gdtr/AI/my_platform/components/list_template_c/src/xlist.c" "/home/gdtr/AI/my_platform/build/components/list_template_c/CMakeFiles/list_x.dir/src/xlist.c.o"
   )

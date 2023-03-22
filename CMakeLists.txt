@@ -13,8 +13,8 @@ add_subdirectory(./components/list_template_c)
 add_subdirectory(./components/xui)
 add_subdirectory(./components/cJSON)
 
-# add_subdirectory(./app/test)
-add_subdirectory(./app/cpp_relearn)
+add_subdirectory(./app/test)
+# add_subdirectory(./app/cpp_relearn)
 # ================================== 常见变量 ========================================
 
 # PROJECT_NAME：                            返回通过 project 命令定义的项目名称
@@ -62,6 +62,6 @@ message([<mode>] "message text" ...)
 
 message("")
 message("====== check variables: ===========")
-message("${COMPILE_FLAGS}")
+message("${CMAKE_C_COMPILER}")
 message("====== check variables: ===========")
 message("")

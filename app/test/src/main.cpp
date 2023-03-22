@@ -601,10 +601,256 @@ data1
 // 	return -1;
 
 // }
+/* ------------------------------ ringbuffer ------------------------------ */
+// #include <stdio.h>
+
+// #define N 64 // FFT 的长度
+
+// struct _ringbuffer_t{
+//     size_t set_idx;
+//     size_t size;
+//     float* data;
+// };
+
+// struct _ringbuffer_t ringbuffer_create(size_t size,float* data)
+// {
+//     memset(data,0,size);
+//     struct _ringbuffer_t que;
+//     que.data = data;
+//     que.set_idx = 0;
+//     que.size = size;
+//     return que;
+// }
+
+// float ringbuffer_get(size_t idx,const struct _ringbuffer_t* que)
+// {
+//     idx += que->set_idx;
+//     while(idx >= que->size){
+//         idx -= que->size;
+//     }
+//     return que->data[idx];
+// }
+
+// void ringbuffer_set(float data,struct _ringbuffer_t* que){
+//     que->data[que->set_idx] = data;
+//     que->set_idx ++;
+//     if(que->set_idx == que->size){
+//         que->set_idx = 0;
+//     }
+// }
+
+// int main(void)
+// {
+//     int sample_num = 15;
+//     float sample_buffer[3][sample_num];
+//     struct _ringbuffer_t que_acc0 = ringbuffer_create(sample_num,&(sample_buffer[0][0]));
+
+//     for(int i = 0; i < sample_num+10;i++)
+//     {
+//         float data = 100*((float)rand()/RAND_MAX);
+//         printf("predata:%.2f\r\n",data);
+//         ringbuffer_set(data,&que_acc0);
+//     }
+
+//     for(int i = 0; i < sample_num;i++)
+//     {
+//         printf("data:%.2f\r\n",ringbuffer_get(i,&que_acc0));
+//     }
+//     return 0;
+// }
+
+
+/* ------------------------------ cpp review ------------------------------ */
+
+// #include <iostream>
+// #include <algorithm>
+
+// void sort(float* array,size_t size)
+// {
+//     for(int i = 0;i < size;i++)
+//     {
+//         for(int j = i;j < size - 1;j++)
+//         {    
+//             if(array[i] < array[j + 1])
+//             {
+//                 float tmp = array[i];
+//                 array[i] = array[j + 1];
+//                 array[j + 1] = tmp;
+//             }
+//         }
+//     }
+//     return;
+// }
+
+
+
+// int main()
+// {
+
+//     static const size_t sz = 6;
+//     float array[sz];
+//     memset(array,0,sizeof(array));
+//     for(int i = 0;i < sz - 1;i++)
+//     {
+//         array[i] = 10 * (float)rand()/RAND_MAX;
+//     }
+//     std::cout<<"Please input one number:";
+//     // scanf("%f",array[sz - 1]);
+//     std::cin>>array[sz - 1];
+
+//     std::cout<<std::endl;
+//     // sort(array,sz);
+//     auto func = [](float a,float b){
+//         return a>b;
+//     };
+//     std::sort(std::begin(array),std::end(array),func);
+
+//     for(int i = 0;i < sz;i++)
+//     {
+//         std::cout<<array[i]<<"  ";
+//     }
+// }
+
+
+// #include <iostream>
+
+
+// void print_v(int line_max)
+// {
+//     if(line_max%2 == 0){
+//         std::cout<<"The data must be odd number!"<<std::endl;
+//         return;
+//     }
+//     for(int j = 0;j < (line_max + 1)/2;j++){
+//         for(int i = 0;i < line_max;i++){
+//             if(i < ((line_max - 1)/2 - j) || i > ((line_max - 1)/2 + j)){
+//                 printf(" ");
+//             }
+//             else{
+//                 printf("*");
+//             }
+//         }
+//         printf("\r\n");
+//     }
+//     for(int j = (line_max - 1)/2 - 1;j >= 0;j--){
+//         for(int i = 0;i < line_max;i++){
+//             if(i < ((line_max - 1)/2 - j) || i > ((line_max - 1)/2 + j)){
+//                 printf(" ");
+//             }
+//             else{
+//                 printf("*");
+//             }
+//         }
+//         printf("\r\n");
+//     }
+    
+// }
+
+
+// void print_sushu(int data)
+// {
+//     if(data >= 2)printf("2 ");
+//     for(int i = 1;i <= data; i++)
+//     {
+//         for(int j = 2;j < i;j++)
+//         {
+//             if(j == i - 1)printf("%d ",i);
+//             if(i%j == 0)break;
+//         }
+
+//     }
+// }
+
+// void print_prefect_num(int num){
+//     for(int i = 1;i <= num;i++){
+//         long sum = 0;
+//         for(int j = 1;j < i;j ++){
+//             if(i%j == 0)sum += j;
+//         }
+//         if(sum == i)printf("%d ",i);
+//     }
+// }
+
+// int check_bracket(char *data,size_t size){
+//     int symbol1_count = 0;
+//     int symbol2_count = 0;
+//     for(size_t i = 0;i < size;i++){
+//         if(data[i] == '(')symbol1_count++;
+//         else if(data[i] == ')')symbol1_count--;
+//         else if(data[i] == '[')symbol2_count++;
+//         else if(data[i] == ']')symbol2_count--;
+//         if(symbol2_count < 0 || symbol1_count < 0){
+//             printf("Does not satisfied!");
+//             return -1; 
+//         }
+//     }
+//     if(symbol1_count != 0 || symbol2_count != 0)
+//     {
+//         printf("Does not satisfied!");
+//         return -1;
+//     }
+
+//     printf("Does satisfied!");
+//     return 0;
+// }
+// #include "vector"
+
+
+
+// int main()
+// {
+//     //print_v(25);
+//     //print_sushu(1000);
+//     // print_prefect_num(100);
+
+//     std::vector<int> data(10);
+//     std::vector<int>::iterator iter;
+//     for(iter = data.begin();iter != data.end();iter++)
+//     {
+//         std::cout<<*iter<<std::endl;
+//     }
+//     // char data[] = "()[([([])])]";
+//     // int a = (((10 + 1)));
+//     // check_bracket(data,sizeof(data));
+// }
 
 #include <iostream>
 
-int main()
+class TestStatic
 {
-    std::cout<<"aa"<<std::endl;
+private:
+    static int data;
+    int data2;
+public:
+    static void callStatic(){
+        data = 1;// const成员函数可以修改静态成员
+        // data2 = 1; 错误：const成员函数不可修改非静态成员
+        std::cout<<"call data:"<<data<<std::endl;
+        
+    }
+    static void staticfunc(){
+
+
+    }
+    TestStatic();
+    ~TestStatic();
+};
+
+TestStatic::TestStatic()
+{
 }
+
+TestStatic::~TestStatic()
+{
+}
+
+int TestStatic::data = 9;
+int main(int argc, char const *argv[])
+{
+    TestStatic obj;
+    obj.callStatic();   
+    
+    return 0;
+}
+
+

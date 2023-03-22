@@ -1,0 +1,2 @@
+method two:word has been written to this file line1
+method two:word has been written to this file line2

@@ -12,7 +12,7 @@ target_link_libraries(test PUBLIC component_test_lib list_x cJSON)
 target_link_directories(test PUBLIC ../../components/xui/build/lib)
 target_link_libraries(test PUBLIC xui)
 
-
+target_include_directories(test PUBLIC /usr/include/eigen3)
 target_include_directories(test PUBLIC ../../components/ring_x_queue)
 target_include_directories(test PUBLIC ../../components/my_printf)
 target_include_directories(test PUBLIC ../../components/xui/includes)
